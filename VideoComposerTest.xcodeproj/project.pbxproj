@@ -13,6 +13,12 @@
 		5621055E285E09CA003DB849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621054C285E09C9003DB849 /* ContentView.swift */; };
 		5621055F285E09CA003DB849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5621054D285E09CA003DB849 /* Assets.xcassets */; };
 		56210560285E09CA003DB849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5621054D285E09CA003DB849 /* Assets.xcassets */; };
+		5621056A285E09EA003DB849 /* Composer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56210569285E09EA003DB849 /* Composer.swift */; };
+		5621056B285E09EA003DB849 /* Composer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56210569285E09EA003DB849 /* Composer.swift */; };
+		5621056D285E0BBD003DB849 /* test-video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5621056C285E0BBD003DB849 /* test-video.mov */; };
+		5621056E285E0BBD003DB849 /* test-video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5621056C285E0BBD003DB849 /* test-video.mov */; };
+		56210570285E0DCB003DB849 /* logo_acetrace_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5621056F285E0DCB003DB849 /* logo_acetrace_shadow.png */; };
+		56210571285E0DCB003DB849 /* logo_acetrace_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5621056F285E0DCB003DB849 /* logo_acetrace_shadow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,9 @@
 		56210552285E09CA003DB849 /* VideoComposerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoComposerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56210558285E09CA003DB849 /* VideoComposerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoComposerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5621055A285E09CA003DB849 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		56210569285E09EA003DB849 /* Composer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composer.swift; sourceTree = "<group>"; };
+		5621056C285E0BBD003DB849 /* test-video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "test-video.mov"; sourceTree = "<group>"; };
+		5621056F285E0DCB003DB849 /* logo_acetrace_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_acetrace_shadow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,9 @@
 				5621054B285E09C9003DB849 /* VideoComposerTestApp.swift */,
 				5621054C285E09C9003DB849 /* ContentView.swift */,
 				5621054D285E09CA003DB849 /* Assets.xcassets */,
+				56210569285E09EA003DB849 /* Composer.swift */,
+				5621056F285E0DCB003DB849 /* logo_acetrace_shadow.png */,
+				5621056C285E0BBD003DB849 /* test-video.mov */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -157,6 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56210570285E0DCB003DB849 /* logo_acetrace_shadow.png in Resources */,
+				5621056D285E0BBD003DB849 /* test-video.mov in Resources */,
 				5621055F285E09CA003DB849 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +179,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56210571285E0DCB003DB849 /* logo_acetrace_shadow.png in Resources */,
+				5621056E285E0BBD003DB849 /* test-video.mov in Resources */,
 				56210560285E09CA003DB849 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +194,7 @@
 			files = (
 				5621055D285E09CA003DB849 /* ContentView.swift in Sources */,
 				5621055B285E09CA003DB849 /* VideoComposerTestApp.swift in Sources */,
+				5621056A285E09EA003DB849 /* Composer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +204,7 @@
 			files = (
 				5621055E285E09CA003DB849 /* ContentView.swift in Sources */,
 				5621055C285E09CA003DB849 /* VideoComposerTestApp.swift in Sources */,
+				5621056B285E09EA003DB849 /* Composer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
